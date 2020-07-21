@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Use of html and forms</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+		table, td, tr
+		{
+			border:1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<div style="background-color: lightpink;">
+		<h1 style="color: red;text-align: center;">XYZLLP Solutions</h1>
+
+		<table style="width: 75%;margin-left: auto;margin-right: auto;">
+			<tr><td colspan="3"><h1 style="text-align: center;">JOB APPLICATION</h1></td></tr>
+
+			<tr>
+				<td rowspan="2">
+					<form>
+						<h3>Candidate Information</h3>
+						<label>Candidate Name : </label>
+						<input type="text" name="name">
+						<br><br>
+						<label>Candidate Age : </label>
+						<input type="text" name="age">
+						<br><br>
+						<label>Gender : </label>
+						<input type="radio" name="male">
+						<label>Male </label>
+						<input type="radio" name="female">
+						<label>Female</label>
+						<br><br>
+						<label>Current Job Description : </label>
+						<textarea></textarea>
+						<br><br>
+						<label>Qualification : </label>
+						<input type="checkbox" name="btech">
+						<label>B.Tech </label>
+						<input type="checkbox" name="mtech">
+						<label>M.Tech </label>
+						<input type="checkbox" name="phd">
+						<label>Ph.D</label>
+						<br><br>
+						<input type="submit" name="submit">
+						<input type="reset" name="reset">	
+					</form>
+				</td>
+
+				<td colspan="2">
+					<h2 style="text-align: center;">Job Responsibilites</h2>
+					<ul>
+						<li>Respond to queries for customer regarding orders</li>
+						<li>Answering phone calls, emails and faxes</li>
+						<li>Filling Paperwork</li>
+						<li>Solve customer issues</li>
+					</ul>
+				</td>
+			</tr>
+
+			<tr>
+				<!-- <td></td> -->
+				<td style="width: 70%;">
+					<h2 style="text-align: center;">About the organisation</h2>
+					<p style="text-align: center;">XYZ LLP is a Limited Liability Partnership firm incorporated on 11 Apil 2015. It is registered at Resgistrar of Companies, New Delhi. Its total obligation of contribution is Rs. 1,560,000. Designated partners of XXYZ LLP are ABC and FGH.</p>
+				</td>
+				<td style="width: 30%;">
+					<h2 style="text-align: center;">Contact Us</h2>
+					<address style="text-align: center;">
+						XYZLLP<br>
+						Mail : John Williams<br>
+						Block no.- 1438, Finland<br>
+						Europe
+					</address>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
